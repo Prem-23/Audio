@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container demo">
+        <div class="audio-track">
+            <audio src="" controls id="audioPlayer">
+            Sorry, your browser doesn't support html5!
+            </audio>
+        </div>
+        <div class="ul">
+        <ul id="playlist">
+            <li class="current-song"><a href="music/JONY - Love your voice.mp3">Love Your Voice</a></li>
+            <li><a href="music/MASALEI NI-TM BAX X KAMAL RAJA-VlcMusic.CoM.mp3">Masalei Ni</a></li>
+            <li><a href="music/[iSongs.info] 03 - Ninnu Chuse Anandamlo.mp3">Ninnu Chuse</a></li>
+            <li><a href="music/Otilia - Bilionera.mp3">Otilia</a></li>
+            <li><a href="music/Chellamma-Masstamilan.in.mp3">Chellamma</a></li>
+            <li><a href="music/Aahaa Kathal Vandhu [Masstamilan.In]-.mp3">Aahaa kathal Vandhu</a></li>
+            <li><a href="music/[iSongs.info] 02 - Hoyna Hoyna.mp3">Hoyna Hoyna</a></li>
+            <li><a href="music/Dharala-Prabhu-Title-Track-MassTamilan.io.mp3">Dharala Prabhu</a></li>
+            <li><a href="music/Dora-Dora.mp3">Dora Dora</a></li>
+            <li><a href="music/Evan-Di-Unna-Pethan.mp3">Evan Di Unna Pethan</a></li>
+            <li><a href="music/I-Want-a-Girl-MassTamilan.io.mp3">I Want A Girl</a></li>
+            <li><a href="music/Kaadhal-Theevey-MassTamilan.io.mp3">Kaadhal Theevey</a></li>
+            <li><a href="music/Kaadhoram-Mochu-Kaatru-MassTamilan.com.mp3">Kaadhoram Mochu</a></li>
+            <li><a href="music/Kaattu Payale-Masstamilan.in.mp3">Kaatu Payale</a></li>
+            <li><a href="music/Kanave-Kanave-MassTamilan.com.mp3">Kanave Kanave</a></li>
+            <li><a href="music/Malto-Kithapuleh-MassTamilan.io.mp3">Malto Kithapuleh</a></li>
+            <li><a href="music/Nahnh-Na-Nah.mp3">Nahnh Na Nah</a></li>
+            <li><a href="music/Over'a-Feel-Pannuren-MassTamilan.io.mp3">Over'a Feel panuren</a></li>
+            <li><a href="music/Pookal-Pookum.mp3">Pookal Pookum</a></li>
+            <li><a href="music/Pothachaalum-MassTamilan.org.mp3">Pothachalum</a></li>
+            <li><a href="music/Thandalkaaran-MassTamilan.org.mp3">Thandalkarran Pakuran</a></li>
+            <li><a href="music/Thimiranumda-MassTamilan.org.mp3">Thimiranumda</a></li>
+        </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <!-- <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".container"), {
+        max: 15,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.2
+        }); 
+    </script> -->
+    <script src="audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>
